@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 7px 24px;
+  line-height: 1.2;
+    /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+button:active {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+input {
+  background-color: rgba(0,0,0,0);
+  font-size: 1.2em;
+  margin: 24px;
+  text-align: center;
+  color: #fff;
+  width: 20%;
+  padding: 7px 15px;
+}
+
+.signIn {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+}
